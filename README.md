@@ -6,7 +6,7 @@ Teaching and workshop materials for using [Wikibase](https://www.mediawiki.org/w
 
 This repository accompanies:
 
-> Bailo, F., Booth, E., & Williams, J. (2026). *How to use Wikibase for mixed-methods research: An interdisciplinary and collaborative approach.* Edward Elgar Publishing. https://doi.org/10.4337/9781035353750
+> Bailo, F., Booth, E., & Williams, J. (2026). *How to use Wikibase for mixed-methods research: An interdisciplinary and collaborative approach.* Edward Elgar Publishing. [https://doi.org/10.4337/9781035353750](https://doi.org/10.4337/9781035353750)
 
 ## Contents
 
