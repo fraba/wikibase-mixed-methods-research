@@ -1,0 +1,38 @@
+qid,label,description,instance_of_or_role
+Q1,MP,Member of Parliament,CLASS
+Q2,Speech,a speech delivered in a parliamentary debate,CLASS
+Q3,Person,a human being,CLASS
+Q4,Social media posting,a message published by an MP on a social media platform,CLASS
+Q5,Interview,a research interview conducted with an MP,CLASS
+Q6,Organisation,a named organisation,CLASS
+Q7,Theme,a theme used to code documents during thematic analysis,CLASS
+Q8,Margaret Hale,Member of Parliament,Q1 (MP)
+Q9,David Okonkwo,Member of Parliament,Q1 (MP)
+Q10,Priya Raman,Member of Parliament,Q1 (MP)
+Q11,Tomas Herrera,Member of Parliament,Q1 (MP)
+Q12,Eleanor Whitfield,Member of Parliament,Q1 (MP)
+Q13,Speech on rural development (Hale),parliamentary speech,Q2 (Speech)
+Q14,Speech on healthcare funding (Okonkwo),parliamentary speech,Q2 (Speech)
+Q15,Speech on climate policy (Raman),parliamentary speech,Q2 (Speech)
+Q16,Speech on education reform (Hale),parliamentary speech,Q2 (Speech)
+Q17,Speech on national security (Herrera),parliamentary speech,Q2 (Speech)
+Q18,Speech on housing affordability (Whitfield),parliamentary speech,Q2 (Speech)
+Q19,Post by Hale on rural development,social media posting,Q4 (Social media posting)
+Q20,Post by Raman on climate policy,social media posting,Q4 (Social media posting)
+Q21,Post by Okonkwo on healthcare,social media posting,Q4 (Social media posting)
+Q22,Post by Whitfield on housing,social media posting,Q4 (Social media posting)
+Q23,Post by Herrera on national security,social media posting,Q4 (Social media posting)
+Q24,Interview with Hale,research interview,Q5 (Interview)
+Q25,Interview with Raman,research interview,Q5 (Interview)
+Q26,Sarah Lindqvist,researcher / interviewer,Q3 (Person)
+Q27,James Pham,researcher / interviewer,Q3 (Person)
+Q28,National Farmers Federation,industry organisation,Q6 (Organisation)
+Q29,Department of Health,government department,Q6 (Organisation)
+Q30,Climate Action Coalition,advocacy organisation,Q6 (Organisation)
+Q31,Housing Australia,government agency,Q6 (Organisation)
+Q32,Rural development,coding theme,Q7 (Theme)
+Q33,Healthcare,coding theme,Q7 (Theme)
+Q34,Climate policy,coding theme,Q7 (Theme)
+Q35,Housing affordability,coding theme,Q7 (Theme)
+Q36,National security,coding theme,Q7 (Theme)
+Q37,Education,coding theme,Q7 (Theme)

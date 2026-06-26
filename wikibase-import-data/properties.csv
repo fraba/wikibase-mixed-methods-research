@@ -1,0 +1,10 @@
+pid,label,datatype,description
+P1,instance of,wikibase-item,that class of which this item is a particular example and member
+P2,subclass of,wikibase-item,this class is a subset (subclass) of that class
+P3,has,wikibase-item,generic link from one individual to another (e.g. an MP has a speech)
+P4,has transcript,url,URL of the MediaWiki page holding the full transcript text
+P5,has media file,commonsMedia,media file (image or video) stored on the wiki and linked to the item
+P6,has message,string,verbatim text of a short social media message
+P7,publication date,time,date (and time) the item was published or recorded
+P8,has sentiment,quantity,overall sentiment score from a lexicon-based analysis (-10 to +10)
+P9,mentions,wikibase-item,an entity (person or organisation) named in the text of the item

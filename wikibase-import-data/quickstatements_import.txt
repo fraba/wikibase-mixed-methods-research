@@ -1,0 +1,229 @@
+# QuickStatements batch -- Chapter 6 teaching dataset
+# IMPORTANT: create the 9 properties FIRST (see import guide), in order P1..P9,
+# on a FRESH Wikibase instance, so that items below receive IDs Q1..Q37.
+# Paste everything below into QuickStatements (Import commands -> v1 syntax).
+
+##### PHASE 1: create class items Q1-Q7 #####
+CREATE
+LAST	Len	"MP"
+LAST	Den	"Member of Parliament"
+CREATE
+LAST	Len	"Speech"
+LAST	Den	"a speech delivered in a parliamentary debate"
+CREATE
+LAST	Len	"Person"
+LAST	Den	"a human being"
+CREATE
+LAST	Len	"Social media posting"
+LAST	Den	"a message published by an MP on a social media platform"
+CREATE
+LAST	Len	"Interview"
+LAST	Den	"a research interview conducted with an MP"
+CREATE
+LAST	Len	"Organisation"
+LAST	Den	"a named organisation"
+CREATE
+LAST	Len	"Theme"
+LAST	Den	"a theme used to code documents during thematic analysis"
+
+##### PHASE 2: create individuals Q8-Q37 with instance-of #####
+CREATE
+LAST	Len	"Margaret Hale"
+LAST	Den	"Member of Parliament"
+LAST	P1	Q1
+CREATE
+LAST	Len	"David Okonkwo"
+LAST	Den	"Member of Parliament"
+LAST	P1	Q1
+CREATE
+LAST	Len	"Priya Raman"
+LAST	Den	"Member of Parliament"
+LAST	P1	Q1
+CREATE
+LAST	Len	"Tomas Herrera"
+LAST	Den	"Member of Parliament"
+LAST	P1	Q1
+CREATE
+LAST	Len	"Eleanor Whitfield"
+LAST	Den	"Member of Parliament"
+LAST	P1	Q1
+CREATE
+LAST	Len	"Speech on rural development (Hale)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Speech on healthcare funding (Okonkwo)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Speech on climate policy (Raman)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Speech on education reform (Hale)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Speech on national security (Herrera)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Speech on housing affordability (Whitfield)"
+LAST	Den	"parliamentary speech"
+LAST	P1	Q2
+CREATE
+LAST	Len	"Post by Hale on rural development"
+LAST	Den	"social media posting"
+LAST	P1	Q4
+CREATE
+LAST	Len	"Post by Raman on climate policy"
+LAST	Den	"social media posting"
+LAST	P1	Q4
+CREATE
+LAST	Len	"Post by Okonkwo on healthcare"
+LAST	Den	"social media posting"
+LAST	P1	Q4
+CREATE
+LAST	Len	"Post by Whitfield on housing"
+LAST	Den	"social media posting"
+LAST	P1	Q4
+CREATE
+LAST	Len	"Post by Herrera on national security"
+LAST	Den	"social media posting"
+LAST	P1	Q4
+CREATE
+LAST	Len	"Interview with Hale"
+LAST	Den	"research interview"
+LAST	P1	Q5
+CREATE
+LAST	Len	"Interview with Raman"
+LAST	Den	"research interview"
+LAST	P1	Q5
+CREATE
+LAST	Len	"Sarah Lindqvist"
+LAST	Den	"researcher / interviewer"
+LAST	P1	Q3
+CREATE
+LAST	Len	"James Pham"
+LAST	Den	"researcher / interviewer"
+LAST	P1	Q3
+CREATE
+LAST	Len	"National Farmers Federation"
+LAST	Den	"industry organisation"
+LAST	P1	Q6
+CREATE
+LAST	Len	"Department of Health"
+LAST	Den	"government department"
+LAST	P1	Q6
+CREATE
+LAST	Len	"Climate Action Coalition"
+LAST	Den	"advocacy organisation"
+LAST	P1	Q6
+CREATE
+LAST	Len	"Housing Australia"
+LAST	Den	"government agency"
+LAST	P1	Q6
+CREATE
+LAST	Len	"Rural development"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+CREATE
+LAST	Len	"Healthcare"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+CREATE
+LAST	Len	"Climate policy"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+CREATE
+LAST	Len	"Housing affordability"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+CREATE
+LAST	Len	"National security"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+CREATE
+LAST	Len	"Education"
+LAST	Den	"coding theme"
+LAST	P1	Q7
+
+##### PHASE 3: statements (links, dates, sentiment, transcripts, media) #####
+# These reference fixed QIDs, valid only if Phases 1-2 produced Q1..Q37.
+Q1	P2	Q3
+Q8	P3	Q13
+Q8	P3	Q16
+Q9	P3	Q14
+Q10	P3	Q15
+Q11	P3	Q17
+Q12	P3	Q18
+Q8	P3	Q19
+Q10	P3	Q20
+Q9	P3	Q21
+Q12	P3	Q22
+Q11	P3	Q23
+Q8	P3	Q24
+Q10	P3	Q25
+Q26	P3	Q24
+Q27	P3	Q25
+Q13	P3	Q32
+Q14	P3	Q33
+Q15	P3	Q34
+Q16	P3	Q37
+Q17	P3	Q36
+Q18	P3	Q35
+Q19	P3	Q32
+Q20	P3	Q34
+Q21	P3	Q33
+Q22	P3	Q35
+Q23	P3	Q36
+Q19	P9	Q28
+Q20	P9	Q30
+Q21	P9	Q29
+Q22	P9	Q31
+Q23	P9	Q30
+Q13	P9	Q28
+Q14	P9	Q29
+Q15	P9	Q30
+Q18	P9	Q31
+Q13	P4	"https://students.wikibase.example/wiki/Transcript:Speech_rural_development_Hale"
+Q14	P4	"https://students.wikibase.example/wiki/Transcript:Speech_healthcare_Okonkwo"
+Q15	P4	"https://students.wikibase.example/wiki/Transcript:Speech_climate_Raman"
+Q16	P4	"https://students.wikibase.example/wiki/Transcript:Speech_education_Hale"
+Q17	P4	"https://students.wikibase.example/wiki/Transcript:Speech_security_Herrera"
+Q18	P4	"https://students.wikibase.example/wiki/Transcript:Speech_housing_Whitfield"
+Q24	P4	"https://students.wikibase.example/wiki/Transcript:Interview_Hale"
+Q25	P4	"https://students.wikibase.example/wiki/Transcript:Interview_Raman"
+Q19	P5	"Post_Hale_rural.jpg"
+Q20	P5	"Post_Raman_climate.jpg"
+Q24	P5	"Interview_Hale.webm"
+Q25	P5	"Interview_Raman.webm"
+Q19	P6	"Backing our farmers with a fair go on rural infrastructure. #ruraldevelopment"
+Q20	P6	"We cannot wait any longer to act on climate. The science is clear. #climatepolicy"
+Q21	P6	"More funding for hospitals means shorter waiting lists for families. #healthcare"
+Q22	P6	"Every family deserves an affordable home. Time to fix the housing crisis. #housing"
+Q23	P6	"Keeping our nation safe is my first responsibility. #nationalsecurity"
+Q13	P7	+2025-03-04T00:00:00Z/11
+Q14	P7	+2025-03-11T00:00:00Z/11
+Q15	P7	+2025-03-18T00:00:00Z/11
+Q16	P7	+2025-04-01T00:00:00Z/11
+Q17	P7	+2025-04-08T00:00:00Z/11
+Q18	P7	+2025-04-15T00:00:00Z/11
+Q19	P7	+2025-03-05T00:00:00Z/11
+Q20	P7	+2025-03-19T00:00:00Z/11
+Q21	P7	+2025-03-12T00:00:00Z/11
+Q22	P7	+2025-04-16T00:00:00Z/11
+Q23	P7	+2025-04-09T00:00:00Z/11
+Q24	P7	+2025-05-06T00:00:00Z/11
+Q25	P7	+2025-05-13T00:00:00Z/11
+Q13	P8	3
+Q14	P8	5
+Q15	P8	-2
+Q16	P8	4
+Q17	P8	-4
+Q18	P8	1
+Q19	P8	6
+Q20	P8	-5
+Q21	P8	7
+Q22	P8	2
+Q23	P8	-3

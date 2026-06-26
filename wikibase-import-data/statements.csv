@@ -1,0 +1,78 @@
+subject_qid,subject_label,property_pid,property_label,value,value_label_or_literal
+Q1,MP,P2,subclass of,Q3,Person
+Q8,Margaret Hale,P3,has,Q13,Speech on rural development (Hale)
+Q8,Margaret Hale,P3,has,Q16,Speech on education reform (Hale)
+Q9,David Okonkwo,P3,has,Q14,Speech on healthcare funding (Okonkwo)
+Q10,Priya Raman,P3,has,Q15,Speech on climate policy (Raman)
+Q11,Tomas Herrera,P3,has,Q17,Speech on national security (Herrera)
+Q12,Eleanor Whitfield,P3,has,Q18,Speech on housing affordability (Whitfield)
+Q8,Margaret Hale,P3,has,Q19,Post by Hale on rural development
+Q10,Priya Raman,P3,has,Q20,Post by Raman on climate policy
+Q9,David Okonkwo,P3,has,Q21,Post by Okonkwo on healthcare
+Q12,Eleanor Whitfield,P3,has,Q22,Post by Whitfield on housing
+Q11,Tomas Herrera,P3,has,Q23,Post by Herrera on national security
+Q8,Margaret Hale,P3,has,Q24,Interview with Hale
+Q10,Priya Raman,P3,has,Q25,Interview with Raman
+Q26,Sarah Lindqvist,P3,has,Q24,Interview with Hale
+Q27,James Pham,P3,has,Q25,Interview with Raman
+Q13,Speech on rural development (Hale),P3,has,Q32,Rural development
+Q14,Speech on healthcare funding (Okonkwo),P3,has,Q33,Healthcare
+Q15,Speech on climate policy (Raman),P3,has,Q34,Climate policy
+Q16,Speech on education reform (Hale),P3,has,Q37,Education
+Q17,Speech on national security (Herrera),P3,has,Q36,National security
+Q18,Speech on housing affordability (Whitfield),P3,has,Q35,Housing affordability
+Q19,Post by Hale on rural development,P3,has,Q32,Rural development
+Q20,Post by Raman on climate policy,P3,has,Q34,Climate policy
+Q21,Post by Okonkwo on healthcare,P3,has,Q33,Healthcare
+Q22,Post by Whitfield on housing,P3,has,Q35,Housing affordability
+Q23,Post by Herrera on national security,P3,has,Q36,National security
+Q19,Post by Hale on rural development,P9,mentions,Q28,National Farmers Federation
+Q20,Post by Raman on climate policy,P9,mentions,Q30,Climate Action Coalition
+Q21,Post by Okonkwo on healthcare,P9,mentions,Q29,Department of Health
+Q22,Post by Whitfield on housing,P9,mentions,Q31,Housing Australia
+Q23,Post by Herrera on national security,P9,mentions,Q30,Climate Action Coalition
+Q13,Speech on rural development (Hale),P9,mentions,Q28,National Farmers Federation
+Q14,Speech on healthcare funding (Okonkwo),P9,mentions,Q29,Department of Health
+Q15,Speech on climate policy (Raman),P9,mentions,Q30,Climate Action Coalition
+Q18,Speech on housing affordability (Whitfield),P9,mentions,Q31,Housing Australia
+Q13,Speech on rural development (Hale),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_rural_development_Hale""",https://students.wikibase.example/wiki/Transcript:Speech_rural_development_Hale
+Q14,Speech on healthcare funding (Okonkwo),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_healthcare_Okonkwo""",https://students.wikibase.example/wiki/Transcript:Speech_healthcare_Okonkwo
+Q15,Speech on climate policy (Raman),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_climate_Raman""",https://students.wikibase.example/wiki/Transcript:Speech_climate_Raman
+Q16,Speech on education reform (Hale),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_education_Hale""",https://students.wikibase.example/wiki/Transcript:Speech_education_Hale
+Q17,Speech on national security (Herrera),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_security_Herrera""",https://students.wikibase.example/wiki/Transcript:Speech_security_Herrera
+Q18,Speech on housing affordability (Whitfield),P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Speech_housing_Whitfield""",https://students.wikibase.example/wiki/Transcript:Speech_housing_Whitfield
+Q24,Interview with Hale,P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Interview_Hale""",https://students.wikibase.example/wiki/Transcript:Interview_Hale
+Q25,Interview with Raman,P4,has transcript,"""https://students.wikibase.example/wiki/Transcript:Interview_Raman""",https://students.wikibase.example/wiki/Transcript:Interview_Raman
+Q19,Post by Hale on rural development,P5,has media file,"""Post_Hale_rural.jpg""",Post_Hale_rural.jpg
+Q20,Post by Raman on climate policy,P5,has media file,"""Post_Raman_climate.jpg""",Post_Raman_climate.jpg
+Q24,Interview with Hale,P5,has media file,"""Interview_Hale.webm""",Interview_Hale.webm
+Q25,Interview with Raman,P5,has media file,"""Interview_Raman.webm""",Interview_Raman.webm
+Q19,Post by Hale on rural development,P6,has message,"""Backing our farmers with a fair go on rural infrastructure. #ruraldevelopment""",Backing our farmers with a fair go on rural infrastructure. #ruraldevelopment
+Q20,Post by Raman on climate policy,P6,has message,"""We cannot wait any longer to act on climate. The science is clear. #climatepolicy""",We cannot wait any longer to act on climate. The science is clear. #climatepolicy
+Q21,Post by Okonkwo on healthcare,P6,has message,"""More funding for hospitals means shorter waiting lists for families. #healthcare""",More funding for hospitals means shorter waiting lists for families. #healthcare
+Q22,Post by Whitfield on housing,P6,has message,"""Every family deserves an affordable home. Time to fix the housing crisis. #housing""",Every family deserves an affordable home. Time to fix the housing crisis. #housing
+Q23,Post by Herrera on national security,P6,has message,"""Keeping our nation safe is my first responsibility. #nationalsecurity""",Keeping our nation safe is my first responsibility. #nationalsecurity
+Q13,Speech on rural development (Hale),P7,publication date,+2025-03-04T00:00:00Z/11,+2025-03-04T00:00:00Z/11
+Q14,Speech on healthcare funding (Okonkwo),P7,publication date,+2025-03-11T00:00:00Z/11,+2025-03-11T00:00:00Z/11
+Q15,Speech on climate policy (Raman),P7,publication date,+2025-03-18T00:00:00Z/11,+2025-03-18T00:00:00Z/11
+Q16,Speech on education reform (Hale),P7,publication date,+2025-04-01T00:00:00Z/11,+2025-04-01T00:00:00Z/11
+Q17,Speech on national security (Herrera),P7,publication date,+2025-04-08T00:00:00Z/11,+2025-04-08T00:00:00Z/11
+Q18,Speech on housing affordability (Whitfield),P7,publication date,+2025-04-15T00:00:00Z/11,+2025-04-15T00:00:00Z/11
+Q19,Post by Hale on rural development,P7,publication date,+2025-03-05T00:00:00Z/11,+2025-03-05T00:00:00Z/11
+Q20,Post by Raman on climate policy,P7,publication date,+2025-03-19T00:00:00Z/11,+2025-03-19T00:00:00Z/11
+Q21,Post by Okonkwo on healthcare,P7,publication date,+2025-03-12T00:00:00Z/11,+2025-03-12T00:00:00Z/11
+Q22,Post by Whitfield on housing,P7,publication date,+2025-04-16T00:00:00Z/11,+2025-04-16T00:00:00Z/11
+Q23,Post by Herrera on national security,P7,publication date,+2025-04-09T00:00:00Z/11,+2025-04-09T00:00:00Z/11
+Q24,Interview with Hale,P7,publication date,+2025-05-06T00:00:00Z/11,+2025-05-06T00:00:00Z/11
+Q25,Interview with Raman,P7,publication date,+2025-05-13T00:00:00Z/11,+2025-05-13T00:00:00Z/11
+Q13,Speech on rural development (Hale),P8,has sentiment,3,3
+Q14,Speech on healthcare funding (Okonkwo),P8,has sentiment,5,5
+Q15,Speech on climate policy (Raman),P8,has sentiment,-2,-2
+Q16,Speech on education reform (Hale),P8,has sentiment,4,4
+Q17,Speech on national security (Herrera),P8,has sentiment,-4,-4
+Q18,Speech on housing affordability (Whitfield),P8,has sentiment,1,1
+Q19,Post by Hale on rural development,P8,has sentiment,6,6
+Q20,Post by Raman on climate policy,P8,has sentiment,-5,-5
+Q21,Post by Okonkwo on healthcare,P8,has sentiment,7,7
+Q22,Post by Whitfield on housing,P8,has sentiment,2,2
+Q23,Post by Herrera on national security,P8,has sentiment,-3,-3
