@@ -12,7 +12,7 @@ This repository accompanies:
 
 - [slides.qmd](slides.qmd) / [slides.html](https://fraba.github.io/wikibase-mixed-methods-research/slides) — workshop slides
 - [wikibase-cloud-setup.md](wikibase-cloud-setup.md) — instructions for creating a personal Wikibase instance on [Wikibase.cloud](https://www.wikibase.cloud)
-- [wikibase-import-data/](ikibase-import-data/)` — scripts and data for importing into Wikibase
+- [wikibase-import-data/](wikibase-import-data/)` — scripts and data for importing into Wikibase
 
 ## Getting Started
 
